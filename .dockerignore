@@ -1,0 +1,40 @@
+# Git (root level only)
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+docs/
+
+# Scripts
+scripts/
+
+# Zeabur template (not needed in Docker image)
+zeabur-template-*.yaml
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Exclude pg_ai_query build artifacts but keep source
+pg_ai_query/build/
+pg_ai_query/.git/
+pg_ai_query/docs/
+pg_ai_query/*.md
+pg_ai_query/.github/
+pg_ai_query/.agents/
